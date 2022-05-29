@@ -1,7 +1,6 @@
 # clothing1M_experiments
 some experiments on learning with noisy data using the clothing1M datset.     
-Paper --> (Label-Noise Robust Generative Adversarial Networks
-)[https://arxiv.org/abs/1811.11165]
+Paper --> [Label-Noise Robust Generative Adversarial Networks](https://arxiv.org/abs/1811.11165)
 
 
 ## Download Clothing1M Dataset
@@ -44,4 +43,4 @@ for data in test_dataloader:
     break
 ```
 
-Checkout this nb for usage on Data Loader -- (nb)[https://github.com/askmuhsin/clothing1M_experiments/blob/main/notebooks/test_pl_data_module.ipynb]
+Checkout this nb for usage on Data Loader -- [nb](https://github.com/askmuhsin/clothing1M_experiments/blob/main/notebooks/test_pl_data_module.ipynb)
