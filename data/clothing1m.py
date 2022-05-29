@@ -37,8 +37,12 @@ class Clothing1MDataset(Dataset):
         augmented = self.transform(image=image)
         image = augmented['image']
         
-        return image, label
-
+        data = {
+            'images': image,
+            'labels': label,
+            'file_names': file_name,
+        }
+        return data
 
 class Clothing1M(pl.LightningDataModule):
     def __init__(
